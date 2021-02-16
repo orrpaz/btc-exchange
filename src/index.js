@@ -50,7 +50,7 @@ const airtableSaver = async() => {
         console.log(`airtableSaver() - btcRateMap.length= ${Object.keys(btcRateMap).length}`)
     } catch (error) {
         console.error(`airtableSaver()`, error)
-        btcExchangeRateList = btcExchangeRateListTmp
+        // btcExchangeRateList = btcExchangeRateListTmp
     }
 }
 
